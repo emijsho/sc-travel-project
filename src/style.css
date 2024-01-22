@@ -17,7 +17,7 @@ section {
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../images/reyk.JPG);
+    url(../images/sun-voyager.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -61,7 +61,7 @@ header a {
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/icel.jpg);
+    url(../images/gullfoss-waterfall.jpgs);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
