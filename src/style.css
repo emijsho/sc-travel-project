@@ -6,6 +6,14 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../images/reyk.JPG);
@@ -48,7 +56,36 @@ header a {
   text-transform: uppercase;
   background-color: white;
 }
-@media (max-width: 900px) {
+
+footer {
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/icel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+footer h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 20px;
+  line-height: 24px;
+}
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  color: white;
+  opacity: 0.7;
+}
+@media (max-width: 960px) {
   header {
     padding: 30px 0;
   }
