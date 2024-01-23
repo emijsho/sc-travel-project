@@ -193,8 +193,11 @@ footer a {
   section {
     padding: 30px;
   }
-  .card-header img {
+  .card-header-secondary img {
     display: none;
+  }
+  .card-header-third img {
+    display: list-item;
   }
   .embed {
     aspect-ratio: 16/9;
